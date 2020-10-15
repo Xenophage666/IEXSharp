@@ -35,5 +35,21 @@ namespace IEXSharp.Model.CoreData.StockPrices.Response
 		public string label { get; set; }
 		public decimal? change { get; set; }
 		public decimal? changePercent { get; set; }
+		public decimal? changeOverTime { get; set; }
+		public string symbol { get; set; }
+		public string label { get; set; }
+		public string notional { get; set; }
+		public string numberOfTrades { get; set; }
+		public string average { get; set; }
+
+		public string marketHigh { get; set; }
+		public string marketLow { get; set; }
+		public string marketAverage { get; set; }
+		public string marketVolume { get; set; }
+		public string marketNotional { get; set; }
+		public string marketNumberOfTrades { get; set; }
+		public string marketOpen { get; set; }
+		public string marketClose { get; set; }
+		public string marketChangeOverTime { get; set; }
 	}
 }
